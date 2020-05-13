@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="">
-    <title>La Ville&#153 &#8211; Products</title>
+    <title>La Ville&#153 &#8211; Quote</title>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/font-awesome.min.css" rel="stylesheet">
     <link href="css/prettyPhoto.css" rel="stylesheet">
@@ -34,7 +34,7 @@
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
+                               <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>
@@ -101,20 +101,70 @@
     <section id="portfolio">
         <div class="container">
             <div class="center">
-               <h2>Products</h2>
+               <h2>Get a Quote</h2>
                <p class="lead">Welcome to La Ville. Our Products are effective in fightiging Germs, Viruses / Microorganisms<br> on surfaces, disinfect wounds, sterilise medical equipment among others, cleaning <br> and washing</p>
             </div>
         
+        
+      <div class="quote">
+  <form action="action_page.php">
+    <div class="row">
+      <div class="col-25">
+        <label for="name">Name</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="name" name="name" placeholder="Your name..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="mail">Email</label>
+      </div>
+      <div class="col-75">
+        <input type="text" id="mail" name="mail" placeholder="Your email..">
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="product">Product</label>
+      </div>
+      <div class="col-75">
+        <select id="product" name="product">
+          <option value="sanitizer">Instant Sanitizer 20 Ltr</option>
+          <option value="sanitizer">Instant Sanitizer 5 Ltr</option>
+          <option value="sanitizer">Instant Sanitizer 1 Ltr</option>
+          <option value="sanitizer">Instant Sanitizer 250 ML</option>
+          <option value="sanitizer">Instant Sanitizer 100 ML</option>
+          <option value="sanitizer">Instant Sanitizer 60 ML</option>
+          <option value="liquid">Liquid Detergent 20 Ltr</option>
+          <option value="disinfect">Disinfection Services</option>
+        </select>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-25">
+        <label for="subject">Subject</label>
+      </div>
+      <div class="col-75">
+        <textarea id="subject" name="subject" placeholder="Indicate your Location, Quantity .." style="height:200px"></textarea>
+      </div>
+    </div>
+    <div class="row">
+      <input type="submit" value="Submit">
+    </div>
+  </form>
+</div> 
+        
 
             <ul class="portfolio-filter text-center">
-                <li><a class="btn btn-default active" href="#" data-filter="*">LA VILLE</a></li>
+              <!--  <li><a class="btn btn-default active" href="#" data-filter="*">LA VILLE</a></li> -->
                 <li><a class="btn btn-default" href="#" data-filter=".bootstrap">INSTANT SANITIZERS</a></li>
                 <li><a class="btn btn-default" href="#" data-filter=".html">LIQUID DETERGENT</a></li>
-                <li><a class="btn btn-default" href="#" data-filter=".wordpress">GALLERY</a></li>
+          <!--      <li><a class="btn btn-default" href="#" data-filter=".wordpress">GALLERY</a></li> -->
             </ul><!--/#portfolio-filter-->
 
             <div class="row">
-                <div class="portfolio-items">
+               <!-- <div class="portfolio-items">
                     <div class="portfolio-item apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item1.png" alt="">
@@ -128,7 +178,7 @@
                         </div>
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
+          <!--          <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item2.png" alt="">
                             <div class="overlay">
@@ -141,7 +191,7 @@
                         </div>          
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
+       <!--             <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item3.png" alt="">
                             <div class="overlay">
@@ -154,7 +204,7 @@
                         </div>        
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
+            <!--        <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item4.png" alt="">
                             <div class="overlay">
@@ -167,7 +217,7 @@
                         </div>           
                     </div><!--/.portfolio-item-->
           
-                    <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
+         <!--           <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item5.png" alt="">
                             <div class="overlay">
@@ -180,7 +230,7 @@
                         </div>      
                     </div><!--/.portfolio-item-->
 
-                    <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
+            <!--        <div class="portfolio-item wordpress apps col-xs-12 col-sm-4 col-md-3">
                         <div class="recent-work-wrap">
                             <img class="img-responsive" src="images/portfolio/recent/item6.png" alt="">
                             <div class="overlay">
@@ -368,7 +418,7 @@ Open in Google Maps</p>
                     <ul class="pull-right">
                        <div class="social">
                             <ul class="social-share">
-                                <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
+                               <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
                                 <li><a href="#"><i class="fa fa-instagram"></i></a></li>

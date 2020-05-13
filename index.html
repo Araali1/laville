@@ -26,13 +26,15 @@
 </head><!--/head-->
 
 <body class="homepage">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v7.0"></script>
 
     <header id="header">
         <div class="top-bar">
             <div class="container">
                 <div class="row">
                     <div class="col-sm-6 col-xs-4">
-                        <div class="top-number"><p><i class="fa fa-phone-square"></i>  +256 392 961 102</p></div>
+                        <div class="top-number"><p><i class="fa fa-phone-square"></i><a href="callto:256392961102">+256-392-961102</a></p></div>
                     </div>
                     <div class="col-sm-6 col-xs-8">
                        <div class="social">
@@ -40,8 +42,8 @@
                                 <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                               <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                             </ul>
                             <div class="search">
                                 <form role="form">
@@ -70,21 +72,31 @@
                 <div class="collapse navbar-collapse navbar-right">
                     <ul class="nav navbar-nav">
                         <li class="active"><a href="index.html">Home</a></li>
-                        <li><a href="about-us.html">About Us</a></li>
-                      <!--  <li><a href="services.html">Services</a></li>   -->
-                        <li><a href="products.html">Products</a></li>
-<!--                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Pages <i class="fa fa-angle-down"></i></a>
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us <i class="fa fa-angle-down"></i></a>
                             <ul class="dropdown-menu">
-                                <li><a href="blog-item.html">Blog Single</a></li>
-                                <li><a href="pricing.html">Pricing</a></li>
-                                <li><a href="404.html">404</a></li>
-                                <li><a href="shortcodes.html">Shortcodes</a></li>
+                                <li><a href="who-we-are.html">Who We Are</a></li>
+                                <li><a href="our-team.html">Our Team</a></li>
+                                <!--<li><a href="404.html">Carrea</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li> -->
+                              
                             </ul>
                         </li>
-                        <li><a href="blog.html">Blog</a></li> -->
-                        <li><a href="contact-us.html">Contact</a></li>        
-                        <li><a href="distribute.html">Distributor</a></li>                
+                    <!--    <li><a href="who-we-are.html">About Us</a></li>
+                      <!--  <li><a href="services.html">Services</a></li>   -->
+                        <li><a href="products.html">Products</a></li>
+                      <!--  <li><a href="blog.html">Blog</a></li>  -->
+                               
+                        <li class="dropdown">
+                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">Highlights <i class="fa fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="news.html">What's New</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <!--<li><a href="404.html">Carrea</a></li>
+                                <li><a href="shortcodes.html">Shortcodes</a></li> -->
+                            </ul>
+                        </li>
+                         <li><a href="contact-us.html">Contact</a></li>
                     </ul>
                 </div>
             </div><!--/.container-->
@@ -626,25 +638,9 @@ Our long established client includes the industry who’s who.</p>
 
                 <div class="col-xs-12 col-sm-4 wow fadeInDown">
                     <div class="testimonial">
-                        <h2>Testimonials</h2>
-                         <div class="media testimonial-inner">
-                            <div class="pull-left">
-                                <img class="img-responsive img-circle" src="images/testimonials1.png">
-                            </div>
+                        <div class="media testimonial-inner">
                             <div class="media-body">
-                                <p>Mwiru Holdings (La Ville) has made efforts to help combat the spread of COVID-19 using the Instant Hand Rub Sanitizer.</p>
-                                <span><strong>-Vincent Olinga/</strong> Head Engineer, Technical Operations</span>
-                            </div>
-                         </div>
-                         
-                         
-                         <div class="media testimonial-inner">
-                            <div class="pull-left">
-                                <img class="img-responsive img-circle" src="images/testimonials3.png">
-                            </div>
-                            <div class="media-body">
-                                <p>Mwiru Holdings (La Ville) has made efforts to help combat the spread of COVID-19 using the Instant Hand Rub Sanitizer.</p>
-                                <span><strong>-Dr. A. Byakatonda/</strong> Managing Director</span>
+                                <iframe src="https://www.facebook.com/plugins/page.php?href=https%3A%2F%2Fwww.facebook.com%2Flavillesmc%2F&tabs=timeline&width=340&height=500&small_header=false&adapt_container_width=true&hide_cover=false&show_facepile=true&appId" width="340" height="368" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
                             </div>
                          </div>
                          
@@ -699,11 +695,12 @@ Our long established client includes the industry who’s who.</p>
             <div class="row">
                 <div class="col-md-3 col-sm-6">
                     <div class="widget">
-                        <h3>OUR COMPANY</h3>
+                                                <h3>OUR COMPANY</h3>
                         <ul>
-                            <li><a href="#">HOME</a></li>
-                            <li><a href="#">ABOUT US</a></li>
-                            <li><a href="#">PRODUCTS</a></li>
+                            <li><a href="index.html">HOME</a></li>
+                            <li><a href="who-we-are.html">WHO WE ARE</a></li>
+                            <li><a href="our-team.html">OUR TEAM</a></li>
+                            <li><a href="products.html">PRODUCTS</a></li>
                            <!-- <li><a href="#">Contact Us</a></li>
                             <li><a href="#">Terms of use</a></li>
                             <li><a href="#">Site Map</a></li>  -->
@@ -715,10 +712,10 @@ Our long established client includes the industry who’s who.</p>
                     <div class="widget">
                         <h3>_________</h3>
                         <ul>
-                            <li><a href="#">CAREERS</a></li>
-                            <li><a href="#">CONTACT US</a></li>
-                            <!-- <li><a href="#">Forum</a></li>
-                            <li><a href="#">Documentation</a></li>
+                            <li><a href="careers.html">CAREERS</a></li>
+                            <li><a href="news.html">WHAT'S NEW</a></li>
+                            <li><a href="contact-us.html">CONTACT US</a></li>
+                          <!--  <li><a href="#">Documentation</a></li>
                             <li><a href="#">Refund policy</a></li>
                             <li><a href="#">Ticket system</a></li>
                             <li><a href="#">Billing system</a></li> -->
@@ -730,10 +727,10 @@ Our long established client includes the industry who’s who.</p>
                     <div class="widget">
                         <h3>PRODUCTS</h3>
                         <ul>
-                            <li><a href="#">Instant Hand Rub (La Ville Sanitizer)</a></li>
-                            <li><a href="#">Methylated Spirit</a></li>
-                            <li><a href="#">Liquid Soap</a></li>
-                            <li><a href="#">Surgical Spirit</a></li>
+                            <li><a href="products.html#portfolio">Instant Hand Rub (La Ville Sanitizer)</a></li>
+                            <li><a href="products.html#portfolio">Methylated Spirit</a></li>
+                            <li><a href="products.html#portfolio">Liquid Soap</a></li>
+                            <li><a href="products.html#portfolio">Surgical Spirit</a></li>
                          <!--   <li><a href="#">Povidone Iodine</a></li>
                            <li><a href="#">Plugin Development</a></li>
                             <li><a href="#">Article Writing</a></li> -->
@@ -781,8 +778,8 @@ Open in Google Maps</p>
                                 <li><a href="www.facebook.com/lavillesmc"><i class="fa fa-facebook"></i></a></li>
                                 <li><a href="#"><i class="fa fa-twitter"></i></a></li>
                                 <li><a href="#"><i class="fa fa-linkedin"></i></a></li> 
-                                <li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-                                <li><a href="#"><i class="fa fa-skype"></i></a></li>
+                                <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                               <!-- <li><a href="#"><i class="fa fa-skype"></i></a></li>-->
                             </ul>
                     </div>
 
@@ -791,31 +788,21 @@ Open in Google Maps</p>
                         <li><a href="#">Faq</a></li>
                         <li><a href="#">Contact Us</a></li> -->
                     </ul>
-                                   <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+                                  <button type="button" class="scroll-top">&#x25B2;</button>
                 </div>
             </div>
         </div>
     </footer><!--/#footer-->
+<script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 <script>
-//Get the button
-var mybutton = document.getElementById("myBtn");
-
-// When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
-
-function scrollFunction() {
-  if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
-    mybutton.style.display = "block";
-  } else {
-    mybutton.style.display = "none";
-  }
-}
-
-// When the user clicks on the button, scroll to the top of the document
-function topFunction() {
-  document.body.scrollTop = 0;
-  document.documentElement.scrollTop = 0;
-}
+$(document).ready(function(){
+    $(".scroll-top").click(function() {
+        $("html,body").animate({ 
+            scrollTop: 0 
+        }, "slow");
+        return false;
+    });
+});
 </script>
 
     <script src="js/jquery.js"></script>

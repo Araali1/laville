@@ -316,7 +316,7 @@ input.search-form:hover {
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu {
-  background-color: rgba(0,0,0,.85);
+  background-color: rgba(0,255,0,0.3);
   -webkit-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   -moz-box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
   box-shadow: 0 3px 8px rgba(0, 0, 0, 0.125);
@@ -341,8 +341,8 @@ input.search-form:hover {
 .navbar-inverse .navbar-nav .dropdown-menu > li:hover > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li:focus > a,
 .navbar-inverse .navbar-nav .dropdown-menu > li.active > a {
-  background-color: #c52d2f;
-  color: #fff;
+	background-color: #FFFFFF;
+	color: #03F;
 }
 
 .navbar-inverse .navbar-nav .dropdown-menu > li:last-child > a {
@@ -2540,21 +2540,76 @@ shortcodes page css
   margin-left: 15px;
 }
 
-#myBtn {
-  display: none;
+.scroll-top{
   position: fixed;
   bottom: 60px;
-  right: 20px;
+  right: 10px;
   z-index: 99;
-  font-size: 18px;
-  border: none;
-  outline: none;
-  background-color: #090;
-  color: white;
-  cursor: pointer;
+  background: #090;
+  opacity: 35%;
+  color: #fff;
+  border-radius: 30px;
   padding: 15px;
-  border-radius: 4px;
+  font-weight: bold;
+  line-height: normal;
+  border: none;
 }
 
-#myBtn:hover {
-  background-color: #555;
+.scroll-top:hover{
+	background: #999;
+	}
+
+/* Style inputs, select elements and textareas */
+.quote input[type=text], select, textarea{
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+/* Style the label to display next to the inputs */
+.quote label {
+  padding: 12px 12px 12px 0;
+  display: inline-block;
+}
+
+/* Style the submit button */
+.quote input[type=submit] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  float: right;
+}
+
+/* Style the container */
+.quote {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+/* Floating column for labels: 25% width */
+.col-25 {
+  float: left;
+  width: 25%;
+  margin-top: 6px;
+}
+
+/* Floating column for inputs: 75% width */
+.col-75 {
+  float: left;
+  width: 75%;
+  margin-top: 6px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}   
